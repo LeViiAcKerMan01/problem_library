@@ -3,7 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main(){
+int Count_one(int n){
 
     int n;
     cin >> n;
@@ -12,4 +12,10 @@ int main(){
 
         n = n & (n-1);
     }
+    
+}
+
+int main(){
+
+    
 }
