@@ -16,7 +16,7 @@ bool isPowerOfTwo(int x)
 
 int main(){
 
-    bool n = isPowerOfTwo(0);
+    bool n = isPowerOfTwo(1);
     bool m = isPowerOfTwo(64);
 
     cout<< n << " " << m << endl;
