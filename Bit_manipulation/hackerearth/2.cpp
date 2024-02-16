@@ -1,0 +1,1 @@
+// Count the number of ones in the binary representation of the given number.
