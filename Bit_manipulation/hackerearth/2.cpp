@@ -4,9 +4,7 @@
 using namespace std;
 
 int Count_one(int n){
-
-    int n;
-    cin >> n;
+    
     int count = 0;
     while(n){
 
