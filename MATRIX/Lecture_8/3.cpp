@@ -15,7 +15,17 @@ void search(int mat[R][C], int x){
     bool isFound = false;
 
     while(i < R && j >= 0){
+        
+        if(x < mat[0][0]){
 
+            cout<<"Not Found"<<endl;
+            break;
+        }
+        if(x > mat[R-1][C-1]){
+
+            cout<<"Not Found"<<endl;
+            break;
+        }
         if(mat[i][j] == x){
 
             cout<<"found at C"<<i<<" "<<j<<endl;
