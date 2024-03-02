@@ -2,7 +2,7 @@
 using namespace std;
 
 const int n = 3;
-
+// Naive solution to find the transpose the matrix
 void TransposeMatrix(int mat[n][n]){
 
     int temp[n][n];
@@ -11,7 +11,7 @@ void TransposeMatrix(int mat[n][n]){
 
         for(int j = 0; j < n; j++){
 
-            temp[i][j] = mat[j][i];
+            temp[i][j] = mat[j][i]; // or temp[j][i] = mat[i][j]
         }
     }
     for(int i = 0; i < n; i++){
