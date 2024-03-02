@@ -27,3 +27,5 @@ int main(){
     }
     return 0;
 }
+// Output : 0 1 1 2 2 3 
+// More ways to create multidimensional arrays are explained further
