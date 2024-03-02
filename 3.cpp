@@ -1,4 +1,4 @@
-// DOUBLE POINTER TECHNIQUE
+//METHOD - 1 : DOUBLE POINTER TECHNIQUE
 // To create a variable sized array
 #include<bits/stdc++.h>
 using namespace std;

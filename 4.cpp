@@ -1,4 +1,4 @@
-// ARRAY OF POINTERS TECHNIQUE
+//METHOD - 2 : ARRAY OF POINTERS TECHNIQUE
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -9,6 +9,7 @@ int main(){
     int n = 2;
 
     int *arr[m]; // creating array of pointers
+
     // Creates a 2-D array
     for(int i = 0; i < m; i++){
 
