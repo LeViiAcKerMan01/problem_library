@@ -1,3 +1,5 @@
+// TRANSPOSE OF A MATRIX
+// Using an array to constain the swapped elements
 #include<bits/stdc++.h>
 using namespace std;
 
