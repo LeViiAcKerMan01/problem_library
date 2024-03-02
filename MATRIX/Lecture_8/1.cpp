@@ -1,4 +1,5 @@
 // Search in a row-wise and column-wise sorted matrix
+// NAIVE SOLUTION 
 
 void search(int mat[R][C], int x){
 
