@@ -28,3 +28,5 @@ int main(){
 }
 
 // OUTPUT : 10 10 10 10 10 10 
+// It is not cache friendly
+// the arrays are not stored at contiguous locations
