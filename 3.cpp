@@ -7,7 +7,8 @@ int main(){
 
     int m = 3; int n = 2;
     int **arr;  // initializing the double Pointer
-    arr = new int *[m];
+
+    arr = new int *[m];// creating an array of pointers
     
     for(int i = 0; i < m; i++){
 
