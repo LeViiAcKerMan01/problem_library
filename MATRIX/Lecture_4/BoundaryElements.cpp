@@ -1,13 +1,14 @@
+// My implementation
 #include<bits/stdc++.h>
 using namespace std;
 
 int main(){
 
-    int m = 5;
-    int n = 5;
-    int arr[m][n] = {{1,2,3,4, 4}, {5,6,7,8, 8}, {9,10,11,12, 12}, {13,14,15,16, 16}};
+    int m = 4;
+    int n = 4;
+    int arr[m][n] = {{1,2,3,4}, {5,6,7,8}, {9,10,11,12}, {13,14,15,16}};
     vector<int> res;
-
+    // A fail code for the edge cases discussed
 
     // pushing the 1st row
     int i = 0;
