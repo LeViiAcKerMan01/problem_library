@@ -32,3 +32,5 @@ int main(){
     }
     Print(arr);
 }
+
+// OUTPUT : 0 0 1 1 2 2 
