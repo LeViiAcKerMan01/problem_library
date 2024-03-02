@@ -1,6 +1,6 @@
 // Search in a row-wise and column-wise sorted matrix
 // NAIVE SOLUTION 
-
+// Time Complexity : O(R * C)
 void search(int mat[R][C], int x){
 
     bool isFound = false;
