@@ -17,3 +17,11 @@ int main(){
     return 0;
     // A simple 3 * 2 matrix in C++
 }
+
+// Traversal in a multidimensional arrays
+
+// Elements in the multidimensional arrays are stored in row major order
+// Internal curly braces and multilines are optional.
+// only the first dimension can be omitted when we initialize the multidimensional array.
+// int arr[][2] = {{1, 2}, {3, 4}};
+// int arr[][2][2] = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};
