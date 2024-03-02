@@ -15,4 +15,5 @@ int main(){
         }
     }
     return 0;
+    // A simple 3 * 2 matrix in C++
 }
