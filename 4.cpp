@@ -8,11 +8,12 @@ int main(){
     int m = 3;
     int n = 2;
 
-    int *arr[m];
-
+    int *arr[m]; // creating array of pointers
+    // Creates a 2-D array
     for(int i = 0; i < m; i++){
 
-        arr[i] = new int[n];
+        arr[i] = new int[n]; 
+        // individually allocating memory for individual rows
     }
 
     for(int i = 0; i < m; i++){
