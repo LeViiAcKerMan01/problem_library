@@ -1,9 +1,11 @@
+
+
 #include<bits/stdc++.h>
 using namespace std;
-
-void Print(int mat[3][2]){
+// First dimension is omitted in this case
+void Print(int mat[][2], int m){
 // This function is only suppose to recieve a 3 * 2 matrix
-    for(int i = 0; i < 3; i++){
+    for(int i = 0; i < m; i++){
 
         for(int j = 0; j < 2; j++){
 
@@ -16,7 +18,7 @@ int main(){
 
     int mat[3][2] = {{10, 20}, {30, 40}, {50, 60}};
 
-    Print(mat);
+    Print(mat, 3);
 
     return 0;
 }
